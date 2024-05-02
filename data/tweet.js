@@ -27,7 +27,7 @@ export async function getAll(){
 
 // 해당 아이디에 대한 트윗을 리턴 시키는 함수
 export async function getAllByUsername(username){
-    return tweets.filter((tweet) => tweet.username === username)
+    return tweets.filter((tweet) => tweet.username === username);
 }
 
 // 글 번호에 대한 트윗을 리턴
