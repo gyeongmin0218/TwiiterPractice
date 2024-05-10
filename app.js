@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 
 // DB 연결 테스트!
 connectDB().then((db) =>{
-    console.log('몽고 db 연결')
+    console.log('몽구스를 사용하여 몽고디비에 접속')
     app.listen(config.host.port)
 }).catch(console.error);
     
